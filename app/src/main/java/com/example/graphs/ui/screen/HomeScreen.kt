@@ -116,12 +116,6 @@ fun GetStartedUI(navController: NavController) {
     val darkGreen = Color(0xFF1A4314)
 
 
-//    Column(
-//        modifier = Modifier
-//            .fillMaxSize()
-//
-//            .background(Color(0xff0f9d58))
-//    ) {
 
     Column(
 

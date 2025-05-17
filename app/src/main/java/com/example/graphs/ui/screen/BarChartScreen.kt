@@ -6,7 +6,7 @@ import androidx.compose.foundation.layout.fillMaxSize
 import androidx.compose.foundation.layout.height
 import androidx.compose.foundation.layout.padding
 import androidx.compose.material.icons.Icons
-import androidx.compose.material.icons.filled.ArrowBack
+import androidx.compose.material.icons.automirrored.filled.ArrowBack
 import androidx.compose.material3.Button
 import androidx.compose.material3.ExperimentalMaterial3Api
 import androidx.compose.material3.Icon
@@ -43,7 +43,7 @@ fun BarChartScreen(navController: NavController) {
                 Text("Bar Chart")},
                 navigationIcon = {
                     IconButton(onClick = {navController.popBackStack()}) {
-                        Icon(Icons.Filled.ArrowBack, contentDescription = "back")
+                        Icon(Icons.AutoMirrored.Filled.ArrowBack, contentDescription = "back")
                     }
                 },
                 colors = TopAppBarDefaults.topAppBarColors(containerColor=darkGreen)
