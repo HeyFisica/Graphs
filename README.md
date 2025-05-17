@@ -33,4 +33,4 @@ Each chart is implemented in a separate composable screen.
 Clone the repo and run it in Android Studio.
 
 ```bash
-git clone https://github.com/your-username/SimpleGraphsApp.git
+git clone https://github.com/HeyFisica/SimpleGraphsApp.git
